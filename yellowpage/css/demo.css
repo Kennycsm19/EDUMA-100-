@@ -1,0 +1,238 @@
+h2 {
+    text-align: center;
+    font-size: 10rem;
+    background: -webkit-linear-gradient(1deg, #ffc701 40.17%, #fe37c6 57.57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 32px;
+}
+.demo-tittle {
+    width: 100%;
+    height: 255px;
+    background-position: center;
+    background-position-y: -13px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/bg/eduma-dotted-line.png);
+    position: relative;
+}
+.demo-tittle p:nth-child(1), .example-secondtittle-box p:first-child {
+    text-align: center;
+    font-size: 26rem;
+    font-weight: 800;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: -93px;
+    background-position-y: 22px;
+    background: linear-gradient(180deg, #cfcfcf -38.08%, rgba(255, 255, 255, 0) 66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: -1;
+}
+
+.demo-tittle strong, .example-secondtittle-box p:last-child {
+    text-align: center;
+    display: block;
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.demo-tittle p:last-child {
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 0 8px;
+    font-weight: 500;
+    color: #b3b3b3;
+}
+.buttonactive {
+  position: relative;
+}
+#buttons::-webkit-scrollbar {
+    width: 12px;
+}
+.buttonactive.active::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  bottom: -2px;
+  left: -2px;
+  z-index: -1;
+  background-image: url('https://img.freepik.com/premium-vector/gradient-background_763350-6.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.btn-box div {
+  width: 45%;
+  max-width: 185px;
+  height: 232px;
+  background-color: #639d9d;
+  display: block;
+  margin: 20px 7px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-box {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 8px;
+    justify-content: center;
+    max-width: 1433px;
+    margin: 0 auto;
+}
+#buttons {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+div#buttons button {
+    background-color: #f3f3f3;
+    border: transparent;
+    padding: 10px 30px;
+    margin: 0 15px;
+    border-radius: 20px;
+    font-weight: 700;
+    color: #9a9a9a;
+}
+.btn-box div span {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 237px;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.mainbox {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-1.png);
+}
+
+.classic {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-2.png);
+}
+
+.elegant {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-3.png);
+}
+
+.udemy {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-16.png);
+}
+
+.rtl {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-5.png);
+}
+
+.coursera {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-6.jpg);
+}
+
+.onlischo {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-7.png);
+}
+
+.univer {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/university_home.jpg?v=1);
+}
+
+.homeu {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-14.png);
+}
+
+.hometwo {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/university_home-3.jpg?v=1);
+}
+
+.homethree {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/university_home-2.jpg?v=1);
+}
+
+.normal {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/university_home-1.jpg?v=1);
+}
+
+.modernu {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-12.png);
+}
+
+.gradscho {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-24.png);
+}
+
+.edtech {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-9.png);
+}
+
+.techca {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-13.png);
+}
+
+.languacho {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-8.png);
+}
+
+.tutor {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-11.png);
+}
+
+.ivy {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-26.png);
+}
+
+.oneinstructor {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-15.png);
+}
+
+.restaurant {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-19.png);
+}
+
+.multi {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-4.png);
+}
+
+.kindergarten {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demo-27.jpg);
+}
+
+.react {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-25.png);
+}
+
+.stanford {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-18.png);
+}
+
+.onecourse {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-22.png);
+}
+
+.newart {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-17.png);
+}
+
+.crypto {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-10.png);
+}
+
+.ins {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-23.png);
+}
+
+.commi {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-comming.png);
+}
+
+.kidart {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/demos/eduma-demos-20.png);
+}

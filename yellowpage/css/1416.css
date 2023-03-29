@@ -1,0 +1,6 @@
+#buttons {
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: 0 auto;
+    display: table;
+}

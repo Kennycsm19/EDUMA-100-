@@ -1,0 +1,74 @@
+div#menu-button-1 {
+    display: none;
+}
+
+.header-a {
+    display: block;
+}
+
+.header-a ul {
+    display: flex;
+    list-style: none;
+}
+.reason-box b:nth-of-type(1) {
+    font-size: 2rem;
+}
+a.header-shopbag {
+    display: none;
+}
+.lastprom .header-shopbag {
+    display: block;
+}
+.lastprom{
+  display: flex;
+  width: 262px;
+  justify-content: space-between;
+  margin-right: 18px;
+  align-items: center;
+}
+.header-shopbag:nth-child(4) {
+    display: block;
+    margin-right: 25px;
+}
+
+header a:nth-of-type(2) {
+    margin-left: 25px;
+}
+
+.header-a li {
+  margin: 0px 13px;
+      font-size: 1.4rem;
+}
+
+.header-a a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.lastprom p {
+    color: white;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.preciocicle {
+    background-color: #FF5D2A;
+    padding: 15px 12px;
+    border-radius: 50%;
+}
+.scrollx {
+    width: 48%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: white;
+}
+.ad-container iframe {
+    width: 100%;
+    height: 542px;
+}
+.ad-container {
+    max-width: 1172px;
+    gap: 0 21px;
+    height: 530px;
+        flex-wrap: nowrap;
+}
