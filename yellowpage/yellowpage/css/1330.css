@@ -1,0 +1,72 @@
+.bg.page {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/synthetic/eduma-header-right.png);
+    width: 634px;
+    height: 525px;
+    position: absolute;
+    right: 0;
+    top: 162px;
+    display: block;
+}
+.bg.pagetwo {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/synthetic/eduma-header-left.png);
+    width: 311px;
+    height: 344px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+}
+.bag.letters p:nth-child(1) {
+    position: absolute;
+    right: 299px;
+    top: 289px;
+}
+.cien, .trei {
+    display: block;
+    position: absolute;
+    transform: rotate(90deg);
+}
+p.cien {
+    left: -232px;
+    top: 129px;
+    font-size: 20rem;
+}
+
+p.trei {
+    right: -201px;
+    font-size: 23rem;
+    top: 109px;
+}
+.adapp-textimg {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1068px;
+    margin: 0 auto;
+    align-items: center;
+    height: 464px;
+}
+
+.adapp-textimg-phones {
+    height: 576px;
+    max-width: 654px;
+}
+
+.adapp-textimg p {
+    padding: 0 62px;
+}
+
+.adapp-text {
+    margin: 0;
+}
+.barra {
+    width: 1320px;
+}
+.features-container {
+    max-width: 410px;
+}

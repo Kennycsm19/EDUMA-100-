@@ -1,0 +1,215 @@
+.gallery {
+  background: transparent;
+}
+
+.gallery-cell, #cardfooter {
+  width: 287px;
+  height: 263px;
+  margin-right: 10px;
+  background: #fff;
+  counter-increment: gallery-cell;
+  box-shadow: 1px 2px 11px -1px #0000001f;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 28px 33px;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+.flickity-button{
+  display: none;
+}
+
+.titllicon p {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.titllicon span {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(https://cdn-icons-png.flaticon.com/512/8018/8018477.png);
+  display: block;
+  width: 45px;
+  height: 50px;
+}
+
+.titllicon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+    margin: 19px 0;
+}
+
+.flickity-viewport {
+    height: 286px !important;
+    touch-action: pan-y;
+    padding-top: 7px;
+}
+
+.target-people > p {
+    font-size: 1.5rem;
+    color: #9d9d9d;
+    margin: 28px auto;
+}
+.flickity-page-dots .dot.is-selected {
+    background: #ffa601;
+    opacity: 1;
+}
+.tabletswipper{
+  display: none;
+}
+.who {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.whotext p {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.whotext span {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.bg.footer {
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/amazingBlocks/eduma-comment-6.png);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.prepartfooter {
+    position: relative;
+    margin-top: 35px;
+    height: 599px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/synthetic/eduma-footer-bg.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.bg-lastpartfooter h2 {
+    font-size: 6rem;
+    background: -webkit-linear-gradient(346deg, #ffc701 40.17%, #ed6988 57.57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-lastpartfooter p {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.bg-lastpartfooter b {
+    font-size: 1.4rem;
+    padding: 12px 27px;
+    display: block;
+    font-weight: 500;
+    line-height: 25px;
+    max-width: 587px;
+    text-align: center;
+}
+.bg-lastpartfooter a {
+    margin: 0 auto;
+    background-color: #ffa601;
+}
+.bg-lastpartfooter a div {
+    background-color: #ffc354;
+}
+.linkfooter p {
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 11px;
+    line-height: 35px;
+    color: #7e7e7e;
+}
+.linkfooter p {
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 11px;
+    line-height: 35px;
+    color: #7e7e7e;
+    margin: 14px auto;
+}
+
+ul {}
+
+.linkfooter ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.linkfooter li {
+  width: 85px;
+  height: 85px;
+  background-color: white;
+  margin: 15px 20px;
+  position: relative;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkfooter a {}
+
+.linkfooter li::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    z-index: -1;
+    background: linear-gradient(180deg, white, #00adff);
+    border-radius: 50%;
+}
+
+.linkfooter li:first-child::before {
+    background: linear-gradient(180deg, red, white);
+}
+
+.linkfooter li:last-child::before {
+    background: linear-gradient(180deg, #3777bf, white);
+}
+.linkfooter a {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 45px;
+    height: 45px;
+    display: block;
+}
+
+.linkfooter ul li:nth-child(1) a {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/5968/5968852.png);
+}
+
+.linkfooter ul li:nth-child(2) a {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/733/733579.png);
+}
+
+.linkfooter ul li:nth-child(3) a {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/5968/5968764.png);
+}

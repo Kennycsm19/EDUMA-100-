@@ -1,0 +1,35 @@
+.gallery{
+  display: none;
+  }
+  .js-flickity{
+    display: none;
+  }
+  .tabletswipper{
+    display: block;
+  }
+  .titllicon {
+      width: 230px;
+  }
+
+  div#cardfooter span {}
+
+  div#cardfooter > p {
+      font-size: 1.2rem;
+      color: darkgrey;
+      line-height: 18px;
+  }
+
+  .who {
+      width: 224px;
+  }
+  .tabletswipper {
+      display: flex;
+      justify-content: space-around;
+      max-width: 1130px;
+      margin: 0 auto;
+  }
+  .gallery-cell, #cardfooter {
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+  }

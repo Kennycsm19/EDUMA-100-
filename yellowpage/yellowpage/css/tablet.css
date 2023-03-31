@@ -1,0 +1,138 @@
+.onebigflex {
+  display: flex;
+      align-items: center;
+      justify-content: space-around;
+      max-width: 706px;
+      margin: 0 30px;
+}
+.btn-box div{
+  border-radius: 15px;
+}
+.mainonebig p {
+    display: block;
+}
+
+.mainonebig p {
+    font-size: 30.0rem;
+    font-family: revert;
+    font-weight: 700;
+}
+
+.maintextanimation > p:nth-of-type(1) {
+    font-size: 4.6rem;
+}
+
+.reason-box {
+    width: 250px;
+    height: 250px;
+    border: 1px dashed;
+    margin: 0;
+}
+
+.main-reasons {
+    max-width: 1336px;
+}
+
+.reason-box span {
+    width: 60px;
+    height: 60px;
+}
+
+.maintextanimation > p:nth-of-type(2) {
+    font-size: 1.6rem;
+    margin: 25px 0;
+    max-width: 545px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.maintextanimation {
+    margin: auto 0;
+}
+.reason-box p:nth-of-type(1) {
+    font-size: 5rem;
+}
+.reason-box p:nth-of-type(1) {
+    font-size: 5rem;
+}
+.btn-box div {
+    width: 70%;
+    max-width: 244px;
+    height: 292px;
+}
+.btn-box div span {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 301px;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.data {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.data-box {
+    margin: 25px auto;
+}
+.blog-elements-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1287px;
+  margin: 0 auto;
+}
+
+.blog-elements {
+    margin: 15px 4px;
+}
+.quality-text > p {
+    width: fit-content;
+}
+.example-one {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1118px;
+    width: 626px;
+    justify-content: space-between;
+}
+thead {
+    width: 585px;
+}
+.barra {
+    width: 602px;
+}
+.features-container {
+    max-width: 354px;
+        margin: 0;
+}
+
+.features-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px 25px;
+  margin: 30px auto;
+  max-width: 1430px;
+}
+.circle-box {
+    width: 160px;
+    height: 160px;
+}
+
+.cicles {
+    gap: 5px 88px;
+    margin: 0 auto;
+    margin-top: 43px;
+    max-width: 900px;
+}
+
+section#powerful {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
